@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the MenuPage page.
+ * Generated class for the LabPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,21 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-menu',
-  templateUrl: 'menu.html',
+  selector: 'page-lab',
+  templateUrl: 'lab.html',
 })
-export class MenuPage {
-
-  LabPage:boolean;
+export class LabPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-gotoLab(){
-  this.navCtrl.push(LabPage);
-  
-}
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MenuPage');
+    console.log('ionViewDidLoad LabPage');
   }
 
 }

@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {LabPage} from '../lab/lab';
-import {ScienceToolsPage} from '../science-tools/science-tools';
 
 /**
- * Generated class for the MenuPage page.
+ * Generated class for the ScienceToolsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,22 +10,16 @@ import {ScienceToolsPage} from '../science-tools/science-tools';
 
 @IonicPage()
 @Component({
-  selector: 'page-menu',
-  templateUrl: 'menu.html',
+  selector: 'page-science-tools',
+  templateUrl: 'science-tools.html',
 })
-export class MenuPage {
-
+export class ScienceToolsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-gotoLab(){
-  this.navCtrl.push(LabPage);
-}
-tools(){
-  this.navCtrl.push(ScienceToolsPage);
-}
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MenuPage');
+    console.log('ionViewDidLoad ScienceToolsPage');
   }
 
 }

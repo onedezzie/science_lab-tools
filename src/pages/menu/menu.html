@@ -11,12 +11,24 @@
   </ion-navbar>
 
 </ion-header>
-
-
 <ion-content padding>
+<ion-card>
+  <img src="../assets/imgs/lab.jpg"/>
+  <ion-card-content>
+    <ion-card-title>
+     <h3>Select from the menu  below</h3> 
+      </ion-card-title>
+    <p>
+      The most popular industrial group ever, and largely
+      responsible for bringing the music to a mass audience.
+    </p>
+  </ion-card-content>
+</ion-card>
+
+
 <h3>Menu</h3>
 <button ion-button  block color="skyblue" (click)="gotoLab()">Laboratory Rules</button>
 <button ion-button block color="skyblue" (click)="tools()">Science Tools</button>
-<button ion-button block color="skyblue">Evaluation</button>
+<button ion-button block color="skyblue" (click) ="evaluation ()">Evaluation</button>
 
 </ion-content>

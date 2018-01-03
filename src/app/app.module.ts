@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import {LabPage} from '../pages/lab/lab';
 import {ScienceToolsPage} from '../pages/science-tools/science-tools';
+import {FlaskPage} from '../pages/flask/flask';
 
 import { MyApp } from './app.component';
 
@@ -13,7 +14,7 @@ import { MyApp } from './app.component';
     MyApp,
     LabPage,
     ScienceToolsPage,
-
+    FlaskPage,
   ],
   imports: [
     BrowserModule,

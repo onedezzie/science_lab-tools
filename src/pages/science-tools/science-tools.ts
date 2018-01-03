@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import{FlaskPage} from '../flask/flask';
 /**
  * Generated class for the ScienceToolsPage page.
  *
@@ -17,7 +17,9 @@ export class ScienceToolsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+  flask(){
+    this.navCtrl.push(FlaskPage);
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad ScienceToolsPage');
   }

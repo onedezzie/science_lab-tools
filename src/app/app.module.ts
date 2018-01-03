@@ -25,6 +25,7 @@ import { MyApp } from './app.component';
     MyApp,
     LabPage,
     ScienceToolsPage,
+    FlaskPage
   ],
   providers: [
     StatusBar,

@@ -7,8 +7,9 @@ import {LabPage} from '../pages/lab/lab';
 import {ScienceToolsPage} from '../pages/science-tools/science-tools';
 import {FlaskPage} from '../pages/flask/flask';
 import { ThermometerPage } from '../pages/thermometer/thermometer';
-
+import { BeakerPage } from '../pages/beaker/beaker';
 import { MyApp } from './app.component';
+import { TripodStandPage } from '../pages/tripod-stand/tripod-stand';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { MyApp } from './app.component';
     LabPage,
     ScienceToolsPage,
     FlaskPage,
-    ThermometerPage
+    ThermometerPage,
+    BeakerPage,
+    TripodStandPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,9 @@ import { MyApp } from './app.component';
     LabPage,
     ScienceToolsPage,
     FlaskPage,
-    ThermometerPage
+    ThermometerPage,
+    BeakerPage,
+    TripodStandPage
   ],
   providers: [
     StatusBar,

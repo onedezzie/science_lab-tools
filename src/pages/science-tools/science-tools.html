@@ -14,17 +14,15 @@
 
 
 <ion-content padding>
-  <div class="flask"> 
-    <button ion-button (click)="flask()">Flask</button>
-  </div>
-  <div class="test_tube">
-    <button ion-button >Test Tube</button>
-  </div>
   
-  <button ion-button >Test Tube</button>
-  <button ion-button >Cylinder</button>
-  <button ion-button (click)="tripodStand()">Tripod Stand</button>
-  <button ion-button (click)="thermometer()">Thermometer</button>
-  <button ion-button (click)="beaker()" >Beaker</button>
+    <button ion-button (click)="flask()" class ="flask">Flask</button>
+  
+  <button ion-button class="testtube">Test Tube</button>
+  <button ion-button (click)="beaker()" class="beaker" >Beaker</button>
+  <button ion-button class="pipette">PIPETTE</button>
+  <button ion-button class= "cylinder">Cylinder</button>
+  <button ion-button (click)="tripodStand()" class="tripod">Tripod Stand</button>
+  <button ion-button (click)="thermometer()" class="thermometer">Thermometer</button>
+  
 
 </ion-content>

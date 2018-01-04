@@ -1,17 +1,56 @@
 page-science-tools {
-div.flask{
-    color:red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    float:left;
-    border-radius: 5em;
-    box-shadow:2em;
+.flask{
+    border-radius:18px;
+    border: 2px solid white;
+    padding:6px;
+    display:inline-block;
+    font-size: 16px;
+    margin-left: 1px;
+
 }
-
-div.test_tube{
-    color:red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    float:left;
-    border-radius: 5em;
-
+.testtube{
+    border-radius:120px;
+    border: 2px solid white;
+    padding:6px;
+    display:inline-block;
+    font-size: 16px; 
+    margin-right:22px;
+    
+}
+.pipette{
+    border-radius:18px;
+    border: 2px solid white;
+    padding:6px;
+    display:inline-block;
+    font-size: 16px;
+    margin-left:1em;
+}
+.cylinder{
+    border-radius:18px;
+    border: 2px solid white;
+    padding:6px;
+    display:inline-block;
+    font-size: 16px;
+}
+.tripod{
+    border-radius:18px;
+    border: 2px solid white;
+    padding:6px;
+    display:inline-block;
+    font-size: 16px;
+}
+.thermometer{
+    border-radius:18px;
+    border: 2px solid white;
+    padding:6px;
+    display:inline-block;
+    font-size: 16px;
+}
+.beaker{
+    border-radius:18px;
+    border: 2px solid white;
+    padding:6px;
+    display:inline-block;
+    font-size: 16px;
 }
 }

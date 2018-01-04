@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import {LabPage} from '../pages/lab/lab';
 import {ScienceToolsPage} from '../pages/science-tools/science-tools';
 import {FlaskPage} from '../pages/flask/flask';
+import { ThermometerPage } from '../pages/thermometer/thermometer';
 
 import { MyApp } from './app.component';
 
@@ -15,6 +16,7 @@ import { MyApp } from './app.component';
     LabPage,
     ScienceToolsPage,
     FlaskPage,
+    ThermometerPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { MyApp } from './app.component';
     MyApp,
     LabPage,
     ScienceToolsPage,
-    FlaskPage
+    FlaskPage,
+    ThermometerPage
   ],
   providers: [
     StatusBar,

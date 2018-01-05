@@ -15,6 +15,7 @@ import { PipettePage } from '../pages/pipette/pipette';
 
 import { CylinderPage } from '../pages/cylinder/cylinder';
 import { TestTubePage } from '../pages/test-tube/test-tube';
+import { EvaluationPage } from '../pages/evaluation/evaluation';
 
 
 @NgModule({
@@ -26,8 +27,9 @@ import { TestTubePage } from '../pages/test-tube/test-tube';
     ThermometerPage,
     BeakerPage,
     TripodStandPage,
+    EvaluationPage,
 
-    PipettePage
+    PipettePage,
 
     CylinderPage,
     TestTubePage
@@ -46,11 +48,12 @@ import { TestTubePage } from '../pages/test-tube/test-tube';
     ThermometerPage,
     BeakerPage,
     TripodStandPage,
- 
-    PipettePage
+
+    PipettePage,
 
     CylinderPage,
-    TestTubePage
+    TestTubePage,
+    EvaluationPage,
 
   ],
   providers: [

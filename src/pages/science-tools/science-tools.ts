@@ -4,6 +4,8 @@ import{FlaskPage} from '../flask/flask';
 import { ThermometerPage } from '../thermometer/thermometer';
 import { BeakerPage } from '../beaker/beaker';
 import { TripodStandPage } from '../tripod-stand/tripod-stand';
+import { CylinderPage } from '../cylinder/cylinder';
+import { TestTubePage } from '../test-tube/test-tube';
 /**
  * Generated class for the ScienceToolsPage page.
  *
@@ -39,7 +41,15 @@ export class ScienceToolsPage {
   tripodStand(){
     this.navCtrl.push(TripodStandPage);
   }
-  
+  //this is method -cylinder
+  cylinder(){
+    this.navCtrl.push(CylinderPage);
+  }
+
+  //this is codes method testtub
+  testTube(){
+    this.navCtrl.push(TestTubePage);
+  }
     ionViewDidLoad() {
     console.log('ionViewDidLoad ScienceToolsPage');
   }

@@ -26,9 +26,7 @@ import { TestTubePage } from '../pages/test-tube/test-tube';
     ThermometerPage,
     BeakerPage,
     TripodStandPage,
-
-    PipettePage
-
+    PipettePage,
     CylinderPage,
     TestTubePage
 
@@ -46,9 +44,7 @@ import { TestTubePage } from '../pages/test-tube/test-tube';
     ThermometerPage,
     BeakerPage,
     TripodStandPage,
- 
-    PipettePage
-
+    PipettePage,
     CylinderPage,
     TestTubePage
 

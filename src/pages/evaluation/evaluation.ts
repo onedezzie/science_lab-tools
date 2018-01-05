@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the PipettePage page.
+ * Generated class for the EvaluationPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,18 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-pipette',
-  templateUrl: 'pipette.html',
+  selector: 'page-evaluation',
+  templateUrl: 'evaluation.html',
 })
-export class PipettePage {
+export class EvaluationPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-  pipette(){
-  this.navCtrl.push(PipettePage)
-  }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PipettePage');
+    console.log('ionViewDidLoad EvaluationPage');
   }
 
 }

@@ -11,8 +11,6 @@ import { BeakerPage } from '../pages/beaker/beaker';
 import { MyApp } from './app.component';
 import { TripodStandPage } from '../pages/tripod-stand/tripod-stand';
 
-import { PipettePage } from '../pages/pipette/pipette';
-
 import { CylinderPage } from '../pages/cylinder/cylinder';
 import { TestTubePage } from '../pages/test-tube/test-tube';
 import { EvaluationPage } from '../pages/evaluation/evaluation';
@@ -28,9 +26,6 @@ import { EvaluationPage } from '../pages/evaluation/evaluation';
     BeakerPage,
     TripodStandPage,
     EvaluationPage,
-
-    PipettePage,
-
     CylinderPage,
     TestTubePage
 
@@ -48,9 +43,6 @@ import { EvaluationPage } from '../pages/evaluation/evaluation';
     ThermometerPage,
     BeakerPage,
     TripodStandPage,
-
-    PipettePage,
-
     CylinderPage,
     TestTubePage,
     EvaluationPage,

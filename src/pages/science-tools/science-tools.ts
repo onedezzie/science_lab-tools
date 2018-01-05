@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import{FlaskPage} from '../flask/flask';
 import { ThermometerPage } from '../thermometer/thermometer';
+import { BeakerPage } from '../beaker/beaker';
+import { TripodStandPage } from '../tripod-stand/tripod-stand';
 /**
  * Generated class for the ScienceToolsPage page.
  *
@@ -18,7 +20,7 @@ export class ScienceToolsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-  
+
   flask(){
     this.navCtrl.push(FlaskPage);
   }
@@ -26,6 +28,16 @@ export class ScienceToolsPage {
   // this is method- thermometer
   thermometer(){
     this.navCtrl.push(ThermometerPage);
+  }
+  
+  //this is method- beaker
+  beaker(){
+    this.navCtrl.push(BeakerPage);
+  }
+
+  //this is method method-tripod stand
+  tripodStand(){
+    this.navCtrl.push(TripodStandPage);
   }
   
     ionViewDidLoad() {

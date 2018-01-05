@@ -10,8 +10,12 @@ import { ThermometerPage } from '../pages/thermometer/thermometer';
 import { BeakerPage } from '../pages/beaker/beaker';
 import { MyApp } from './app.component';
 import { TripodStandPage } from '../pages/tripod-stand/tripod-stand';
+
+import { PipettePage } from '../pages/pipette/pipette';
+
 import { CylinderPage } from '../pages/cylinder/cylinder';
 import { TestTubePage } from '../pages/test-tube/test-tube';
+
 
 @NgModule({
   declarations: [
@@ -22,8 +26,12 @@ import { TestTubePage } from '../pages/test-tube/test-tube';
     ThermometerPage,
     BeakerPage,
     TripodStandPage,
+
+    PipettePage
+
     CylinderPage,
     TestTubePage
+
   ],
   imports: [
     BrowserModule,
@@ -38,8 +46,12 @@ import { TestTubePage } from '../pages/test-tube/test-tube';
     ThermometerPage,
     BeakerPage,
     TripodStandPage,
+ 
+    PipettePage
+
     CylinderPage,
     TestTubePage
+
   ],
   providers: [
     StatusBar,

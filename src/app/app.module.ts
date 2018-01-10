@@ -16,6 +16,7 @@ import { PipettePage } from '../pages/pipette/pipette';
 import { CylinderPage } from '../pages/cylinder/cylinder';
 import { TestTubePage } from '../pages/test-tube/test-tube';
 import { EvaluationPage } from '../pages/evaluation/evaluation';
+import { AboutPage } from '../pages/about/about';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { EvaluationPage } from '../pages/evaluation/evaluation';
     PipettePage,
 
     CylinderPage,
-    TestTubePage
+    TestTubePage,
+    AboutPage
 
   ],
   imports: [
@@ -54,6 +56,7 @@ import { EvaluationPage } from '../pages/evaluation/evaluation';
     CylinderPage,
     TestTubePage,
     EvaluationPage,
+    AboutPage
 
   ],
   providers: [

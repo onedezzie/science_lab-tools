@@ -4,12 +4,11 @@ import{FlaskPage} from '../flask/flask';
 import { ThermometerPage } from '../thermometer/thermometer';
 import { BeakerPage } from '../beaker/beaker';
 import { TripodStandPage } from '../tripod-stand/tripod-stand';
- dev-dezzie
+
 import { PipettePage } from '../pipette/pipette';
 
 import { CylinderPage } from '../cylinder/cylinder';
 import { TestTubePage } from '../test-tube/test-tube';
- master
 /**
  * Generated class for the ScienceToolsPage page.
  *
@@ -46,7 +45,7 @@ export class ScienceToolsPage {
 
     this.navCtrl.push(TripodStandPage);
   }
- dev-dezzie
+ 
   
   pipette(){
     this.navCtrl.push(PipettePage);

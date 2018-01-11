@@ -15,7 +15,7 @@ import { CylinderPage } from '../pages/cylinder/cylinder';
 import { TestTubePage } from '../pages/test-tube/test-tube';
 import { EvaluationPage } from '../pages/evaluation/evaluation';
 import { AboutPage } from '../pages/about/about';
-
+import { PipettePage } from '../pages/pipette/pipette';
 
 
 
@@ -31,7 +31,8 @@ import { AboutPage } from '../pages/about/about';
     EvaluationPage,
     CylinderPage,
     TestTubePage,
-    AboutPage
+    AboutPage,
+    PipettePage
 
   ],
   imports: [
@@ -50,7 +51,8 @@ import { AboutPage } from '../pages/about/about';
     CylinderPage,
     TestTubePage,
     EvaluationPage,
-    AboutPage
+    AboutPage,
+    PipettePage
 
   ],
   providers: [

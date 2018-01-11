@@ -11,13 +11,11 @@ import { BeakerPage } from '../pages/beaker/beaker';
 import { MyApp } from './app.component';
 import { TripodStandPage } from '../pages/tripod-stand/tripod-stand';
 
-import { PipettePage } from '../pages/pipette/pipette';
-
 import { CylinderPage } from '../pages/cylinder/cylinder';
 import { TestTubePage } from '../pages/test-tube/test-tube';
 import { EvaluationPage } from '../pages/evaluation/evaluation';
 import { AboutPage } from '../pages/about/about';
-
+import { PipettePage } from '../pages/pipette/pipette';
 
 
 
@@ -31,12 +29,10 @@ import { AboutPage } from '../pages/about/about';
     BeakerPage,
     TripodStandPage,
     EvaluationPage,
-
-    PipettePage,
-
     CylinderPage,
     TestTubePage,
-    AboutPage
+    AboutPage,
+    PipettePage
 
   ],
   imports: [
@@ -52,13 +48,11 @@ import { AboutPage } from '../pages/about/about';
     ThermometerPage,
     BeakerPage,
     TripodStandPage,
-
-    PipettePage,
-
     CylinderPage,
     TestTubePage,
     EvaluationPage,
-    AboutPage
+    AboutPage,
+    PipettePage
 
   ],
   providers: [

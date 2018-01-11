@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { SplashScreen } from '@ionic-native/splash-screen';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import {LabPage} from '../pages/lab/lab';
 import {ScienceToolsPage} from '../pages/science-tools/science-tools';
@@ -14,6 +14,9 @@ import { TripodStandPage } from '../pages/tripod-stand/tripod-stand';
 import { CylinderPage } from '../pages/cylinder/cylinder';
 import { TestTubePage } from '../pages/test-tube/test-tube';
 import { EvaluationPage } from '../pages/evaluation/evaluation';
+import { AboutPage } from '../pages/about/about';
+
+
 
 
 @NgModule({
@@ -27,7 +30,8 @@ import { EvaluationPage } from '../pages/evaluation/evaluation';
     TripodStandPage,
     EvaluationPage,
     CylinderPage,
-    TestTubePage
+    TestTubePage,
+    AboutPage
 
   ],
   imports: [
@@ -46,11 +50,12 @@ import { EvaluationPage } from '../pages/evaluation/evaluation';
     CylinderPage,
     TestTubePage,
     EvaluationPage,
+    AboutPage
 
   ],
   providers: [
     StatusBar,
-    SplashScreen,
+  
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

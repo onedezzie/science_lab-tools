@@ -4,9 +4,17 @@ import{FlaskPage} from '../flask/flask';
 import { ThermometerPage } from '../thermometer/thermometer';
 import { BeakerPage } from '../beaker/beaker';
 import { TripodStandPage } from '../tripod-stand/tripod-stand';
+<<<<<<< HEAD
 import { CylinderPage } from '../cylinder/cylinder';
 import { TestTubePage } from '../test-tube/test-tube';
 
+=======
+
+import { PipettePage } from '../pipette/pipette';
+
+import { CylinderPage } from '../cylinder/cylinder';
+import { TestTubePage } from '../test-tube/test-tube';
+>>>>>>> dev_Hammond
 /**
  * Generated class for the ScienceToolsPage page.
  *
@@ -23,7 +31,7 @@ export class ScienceToolsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+  
   flask(){
     this.navCtrl.push(FlaskPage);
   }
@@ -43,6 +51,14 @@ export class ScienceToolsPage {
 
     this.navCtrl.push(TripodStandPage);
   }
+<<<<<<< HEAD
+=======
+ 
+  
+  pipette(){
+    this.navCtrl.push(PipettePage);
+    }
+>>>>>>> dev_Hammond
 
   //this is method -cylinder
   cylinder(){

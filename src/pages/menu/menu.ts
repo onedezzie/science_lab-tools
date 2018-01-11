@@ -3,6 +3,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {LabPage} from '../lab/lab';
 import {ScienceToolsPage} from '../science-tools/science-tools';
 import { EvaluationPage } from '../evaluation/evaluation';
+import { AboutPage } from '../about/about';
+
 
 
 /**
@@ -20,8 +22,10 @@ import { EvaluationPage } from '../evaluation/evaluation';
 export class MenuPage {
 
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor( public navCtrl: NavController, public navParams: NavParams) {
+    
   }
+
 gotoLab(){
   this.navCtrl.push(LabPage);
 }
@@ -30,6 +34,9 @@ evaluation(){
 }
 tools(){
   this.navCtrl.push(ScienceToolsPage);
+}
+about(){
+  this.navCtrl.push(AboutPage);
 }
   ionViewDidLoad() {
     console.log('ionViewDidLoad MenuPage');

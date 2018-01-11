@@ -6,6 +6,7 @@ import { EvaluationPage } from '../evaluation/evaluation';
 import { AboutPage } from '../about/about';
 
 
+
 /**
  * Generated class for the MenuPage page.
  *
@@ -21,8 +22,10 @@ import { AboutPage } from '../about/about';
 export class MenuPage {
 
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor( public navCtrl: NavController, public navParams: NavParams) {
+    
   }
+
 gotoLab(){
   this.navCtrl.push(LabPage);
 }

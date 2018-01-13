@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { SplashScreen } from '@ionic-native/splash-screen';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import {LabPage} from '../pages/lab/lab';
 import {ScienceToolsPage} from '../pages/science-tools/science-tools';
@@ -10,9 +10,16 @@ import { ThermometerPage } from '../pages/thermometer/thermometer';
 import { BeakerPage } from '../pages/beaker/beaker';
 import { MyApp } from './app.component';
 import { TripodStandPage } from '../pages/tripod-stand/tripod-stand';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7de5a96bfa71633c93c4e0ce679fd3bedb3e49bc
 import { CylinderPage } from '../pages/cylinder/cylinder';
 import { TestTubePage } from '../pages/test-tube/test-tube';
 import { EvaluationPage } from '../pages/evaluation/evaluation';
+import { AboutPage } from '../pages/about/about';
+import { PipettePage } from '../pages/pipette/pipette';
+
 
 
 @NgModule({
@@ -25,11 +32,10 @@ import { EvaluationPage } from '../pages/evaluation/evaluation';
     BeakerPage,
     TripodStandPage,
     EvaluationPage,
-
-    PipettePage,
-
     CylinderPage,
-    TestTubePage
+    TestTubePage,
+    AboutPage,
+    PipettePage
 
   ],
   imports: [
@@ -45,17 +51,16 @@ import { EvaluationPage } from '../pages/evaluation/evaluation';
     ThermometerPage,
     BeakerPage,
     TripodStandPage,
-
-    PipettePage,
-
     CylinderPage,
     TestTubePage,
     EvaluationPage,
+    AboutPage,
+    PipettePage
 
   ],
   providers: [
     StatusBar,
-    SplashScreen,
+  
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

@@ -9,7 +9,10 @@ import { PipettePage } from '../pipette/pipette';
 
 import { CylinderPage } from '../cylinder/cylinder';
 import { TestTubePage } from '../test-tube/test-tube';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7de5a96bfa71633c93c4e0ce679fd3bedb3e49bc
 /**
  * Generated class for the ScienceToolsPage page.
  *
@@ -26,7 +29,7 @@ export class ScienceToolsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+  
   flask(){
     this.navCtrl.push(FlaskPage);
   }

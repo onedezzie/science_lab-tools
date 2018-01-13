@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {LabPage} from '../lab/lab';
 import {ScienceToolsPage} from '../science-tools/science-tools';
+import { EvaluationPage } from '../evaluation/evaluation';
 
 
 /**
@@ -23,6 +24,9 @@ export class MenuPage {
   }
 gotoLab(){
   this.navCtrl.push(LabPage);
+}
+evaluation(){
+  this.navCtrl.push(EvaluationPage);
 }
 tools(){
   this.navCtrl.push(ScienceToolsPage);
